@@ -33,7 +33,7 @@ public class CityController {
 	
 	@ExceptionHandler(MethodArgumentNotValidException.class)
 	public ResponseEntity<String> errorHandler(MethodArgumentNotValidException e) {
-		return new ResponseEntity<String>("Sorry, there seems to be a problem with your request", HttpStatus.BAD_REQUEST);
+		return new ResponseEntity<String>("Error: It can be  a problem with your request", HttpStatus.BAD_REQUEST);
 	}
 
 }
