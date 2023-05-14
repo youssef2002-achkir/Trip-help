@@ -1,6 +1,9 @@
 insert into cities(description, city_name) values ('The beautiful capital of Morocco', 'Rabat');
 insert into cities(description, city_name) values ('Pride of North Morocco', 'Tanger');
 insert into cities(description, city_name) values ('Priceless South', 'Elouyoun');
+insert into cities(description, city_name) values ('Financial capital of Morocco', 'Casablanca');
+insert into cities(description, city_name) values ('Blue city ', 'Chefchaoun');
+insert into cities(description, city_name) values ('Atlas pride', 'Khenifra');
 
 insert into activities (name, description, url, city_id, phone_number, ranking, average_rating, minimum_price, maximum_price, street_address, price_level) values ('Mynte Hall', 'Praesent blandit lacinia erat.', 'www.mynte-hall.com', 1, '+49694645412867', 1, 2.8, 7, 104, '6 Dayton Place', 2);
 insert into activities (name, description, url, city_id, phone_number, ranking, average_rating, minimum_price, maximum_price, street_address, price_level) values ('Photospace Club', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna.', 'www.photospace-club.com', 3, '+49409034582093', 2, 2.1, 10, 57, '62097 Birchwood Crossing', 3);
@@ -102,7 +105,6 @@ insert into activities (name, description, url, city_id, phone_number, ranking, 
 insert into activities (name, description, url, city_id, phone_number, ranking, average_rating, minimum_price, maximum_price, street_address, price_level) values ('Brightdog Center', 'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.', 'www.brightdog-center.com', 1, '+49693274270246', 98, 2.3, 7, 66, '98 Mallard Lane', 1);
 insert into activities (name, description, url, city_id, phone_number, ranking, average_rating, minimum_price, maximum_price, street_address, price_level) values ('Skalith Hall', 'Nunc purus. Phasellus in felis.', 'www.skalith-hall.com', 1, '+49699542497806', 99, 2.0, 9, 151, '27558 Dunning Point', 3);
 insert into activities (name, description, url, city_id, phone_number, ranking, average_rating, minimum_price, maximum_price, street_address, price_level) values ('Kwimbee Hall', 'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 'www.kwimbee-hall.com', 1, '+49698541183933', 100, 4.6, 9, 241, '13089 Service Plaza', 2);
-
 
 insert into hotels (name, description, url, city_id, phone_number, ranking, average_rating, minimum_price, maximum_price, check_in_time, check_out_time, street_address, price_level) values ('Oloo Hotel', 'Nullam molestie nibh in lectus.', 'www.oloo-hotel.com', 1, '+49699282472330', 1, 4.4, 50, 608, '10:00', '12:00', '529 Esker Way', 2);
 insert into hotels (name, description, url, city_id, phone_number, ranking, average_rating, minimum_price, maximum_price, check_in_time, check_out_time, street_address, price_level) values ('Wordware Resort', 'Aenean lectus.', 'www.wordware-resort.com', 3, '+49408733734173', 2, 4.5, 47, 239, '11:00', '12:00', '91 Meadow Valley Point', 3);

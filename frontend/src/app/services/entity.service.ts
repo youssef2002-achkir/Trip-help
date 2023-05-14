@@ -8,8 +8,8 @@ import { Activity } from '../model/activity';
 import { Sightseeing } from '../model/sightseeing';
 import { EntityImageUrls } from 'src/assets/entityImageUrls';
 
-const apiRoot = 'https://trip-helper-lemon.vercel.app/';
-//const apiRoot = 'http://localhost:8080';
+//apiRoot = 'https://g3-advisor.herokuapp.com/';
+const apiRoot = 'http://localhost:8080';
 
 @Injectable({
   providedIn: 'root'

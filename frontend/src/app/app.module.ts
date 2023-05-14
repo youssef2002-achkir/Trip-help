@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { CityComponent } from './components/city/city.component';
 import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.component';
 import { CityListComponent } from './components/city/city-list/city-list.component';
@@ -73,7 +73,9 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
     NoopAnimationsModule,
     MatAutocompleteModule,
   ],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

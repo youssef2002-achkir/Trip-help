@@ -1,0 +1,7 @@
+html, body {
+  background-color: skyblue;
+}
+html, body{
+  margin-left: 10%;
+  column-count: 3;
+}
